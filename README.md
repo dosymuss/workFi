@@ -158,7 +158,7 @@ JSON Server запустит локальный API. Адрес сервера �
 
 ## 🔗 Live Demo
 
-[WorkFi — Visit Website](<https://work-fi-chi.vercel.app/auth/login>)
+[WorkFi — Visit Website](<https://work-fi-chi.vercel.app>)
 
 ---
 
