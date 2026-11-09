@@ -1,0 +1,14 @@
+.btn {
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  background-color: var(--black);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--fullWh);
+}
+
+.btn:disabled {
+  background-color: var(--darkGrey);
+
+}

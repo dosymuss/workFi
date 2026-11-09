@@ -1,0 +1,38 @@
+.check {
+  display: none;
+}
+
+.filterLabel {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+}
+
+.check:checked + .filterLabel {
+  border: 5px solid var(--acGreen);
+}
+
+.groupTitle {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.labelWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  & p {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.checkWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}

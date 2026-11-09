@@ -1,0 +1,39 @@
+.tags {
+  background-color: var(--tagsGray);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tagsWrap {
+  display: flex;
+  width: 306px;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.titleDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  & p {
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  & button {
+    border-radius: 5px;
+    width: 87px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: var(--fullWh);
+    background-color: var(--acGreen);
+  }
+}

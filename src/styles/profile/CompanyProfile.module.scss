@@ -1,0 +1,38 @@
+.historyBlock {
+  & h4 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  & p {
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.contentBlock {
+  width: calc(100vw - 550px - 100px);
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.buttonWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  & button {
+    background: var(--acGreen);
+    border-radius: 5px;
+    width: 46px;
+    height: 35px;
+  }
+}

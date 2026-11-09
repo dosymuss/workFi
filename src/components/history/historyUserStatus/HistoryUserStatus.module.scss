@@ -1,0 +1,33 @@
+.header,
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 54px;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+.cell {
+  font-size: 16px;
+  text-align: center;
+}
+
+.statusBtn {
+  height: 35px;
+  width: 185px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--fullWh);
+}

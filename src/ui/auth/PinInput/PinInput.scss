@@ -1,0 +1,14 @@
+.pin-inp {
+  border-radius: 12px;
+  width: 55px !important;
+  height: 55px !important;
+  background: #adb5bd;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.pin-inp-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

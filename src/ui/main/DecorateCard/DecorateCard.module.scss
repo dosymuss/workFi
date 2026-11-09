@@ -1,0 +1,29 @@
+.main {
+  background-image: url("../../../assets/main/BlobIcon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  border: 2px solid #000;
+  border-radius: 25px;
+  width: 236px;
+  height: 270px;
+  background-color: #c5c2c2;
+  position: relative;
+  padding-top: 35px;
+  padding-inline: 10px;
+  text-align: center;
+  cursor: pointer;
+
+  & h3 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
+
+.image {
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}

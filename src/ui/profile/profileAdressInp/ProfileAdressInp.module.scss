@@ -1,0 +1,26 @@
+.adressInpTitle {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.inpWrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+
+  & input {
+    width: 50px;
+    height: 42px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--gray);
+    font-weight: 400;
+    font-size: 18px;
+  }
+  & p{
+    font-size: 42px;
+    font-weight: 100;
+  }
+}

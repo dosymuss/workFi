@@ -1,0 +1,29 @@
+.decorate-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 130px);
+  position: sticky;
+  top: 30px;
+}
+
+.vacanse-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home-page-main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.spinner-wrap {
+  height: calc(100vh - 69px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,60 @@
+.vacancies {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .table {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .header, .row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 54px;
+    align-items: center;
+    padding: 0 12px;
+  }
+  
+  .header {
+    font-weight: bold;
+    background-color: #f7f7f7;
+  }
+  
+  .cell {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .statusBtn {
+    height: 35px;
+    width: 185px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  
+  .interview {
+    background-color: #49a078;
+  }
+  
+  .noResponse {
+    background-color: #e7b416;
+  }
+  
+  .declined {
+    background-color: #d72638;
+  }
+  

@@ -1,0 +1,57 @@
+.main {
+  border: 2px solid #000;
+  border-radius: 25px;
+  width: 756px;
+  height: auto;
+  padding: 22px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titleAndLike {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & a {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  & img {
+    width: 25px;
+  }
+}
+
+.tagsAndPrice {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  & p {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  & div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+.companyLink {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.sendBtn {
+  background: #49a078;
+  border-radius: 10px;
+  padding: 10px 25px;
+  height: 42px;
+  width: 143px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: var(--fullWh);
+}

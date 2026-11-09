@@ -1,0 +1,28 @@
+.inpLabel {
+  & p {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  & input,
+  & textarea {
+    border-radius: 10px;
+    background-color: var(--gray);
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+
+  }
+
+  & input {
+    height: 45px;
+    padding-left: 10px;
+  }
+
+  & textarea{
+    height: 137px;
+    resize: none;
+    padding: 10px;
+  }
+}

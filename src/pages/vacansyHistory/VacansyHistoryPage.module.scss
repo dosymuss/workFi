@@ -1,0 +1,48 @@
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.titleSmall {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.header,
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 54px;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #f7f7f7;
+  margin-bottom: 15px;
+}
+
+.cell {
+  font-size: 16px;
+  text-align: center;
+  border-right: 2px solid black;
+}
+
+.cell:nth-child(5) {
+  border-right: none;
+}
+
+.main {
+  padding-top: 30px;
+}
+
+.userStatusWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
